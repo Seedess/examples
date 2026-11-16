@@ -1,0 +1,12 @@
+{
+  "name": "seedess-example",
+  "private": true,
+  "type": "module",
+  "description": "Full working Seedess example: server creates a stream, browser plays it.",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@seedess/node-sdk": "github:Seedess/node-sdk"
+  }
+}
